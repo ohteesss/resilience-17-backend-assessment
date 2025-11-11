@@ -12,7 +12,8 @@
     "test": "set USE_MOCK_MODEL=1 && mocha --recursive --require dotenv/config",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
-    "sync-envs": "node sync-env-files"
+    "sync-envs": "node sync-env-files",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Resilience17",
